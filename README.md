@@ -1,6 +1,14 @@
 # Mass-Photo
 Pipeline for mass photometry
 
+# iSCAT Spot Detection and Analysis Pipeline (Work in Progress)
+
+**This repository is currently under active development.**  
+I'm still working on building and organizing the full analysis pipeline, so expect many changes, improvements, and additions in the coming weeks.  
+The structure, file names, and functions are subject to updates as the project evolves.
+
+Feel free to explore the current scripts, but keep in mind that the pipeline is not yet finalized.
+
 -----------------------------------------------------------------------------------
 
 ## MP_pipeline_live_flatflied_V2.m ou MP_pipeline_live_flatflied_V2.mlx
