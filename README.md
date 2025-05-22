@@ -152,4 +152,15 @@ This MATLAB function is used in the iSCAT image processing pipeline to **refine 
 - Used to refine detections after candidate selection.
 - Spots outside the image or with no valid extremum in their neighborhood are discarded.
 
+-------------------------------------------------------------------------------------
+
+## MP_convert_nd2_to_h5.m
+
+It works the same way as `MP_convert_nd2_to_h5_raw.m` previously described, but this version is specifically intended to handle **ND2 files composed of thousands of consecutive frames**, such as full acquisition videos.
+
+### Output
+- A single `.h5` file containing the image stack under `/data` in `[dimX, dimY, 1, 1, nT]` format.
+- Each frame is stored as a single-precision (`float32`) image.
+
+
 
